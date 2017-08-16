@@ -10,7 +10,8 @@ public partial class _Default : Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Trace.Write("Information", "This is information");
-        Trace.Write("Error", "This is error message");
+        System.Diagnostics.Trace.TraceInformation("My trace statement");
+        System.Diagnostics.Trace.TraceWarning("My warning statement");
+        System.Diagnostics.Trace.TraceError("My error statement");
     }
 }
