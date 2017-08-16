@@ -4,13 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Diagnostics;
 
 public partial class _Default : Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        var test = "this is testing";
-        Response.Write(test);
-        
+        Trace.Write("Information", "This is information");
+        Trace.Write("Error", "This is error message");
     }
 }
