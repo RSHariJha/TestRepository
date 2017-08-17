@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>ASP.NET</h1>
-        <p class="lead">This is testing deployment for staging and production.</p>
+        <p class="lead">This is testing deployment for continious delivery.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
